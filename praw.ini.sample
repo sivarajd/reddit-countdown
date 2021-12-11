@@ -1,0 +1,6 @@
+[countdownbot]
+client_id=YourClientId
+client_secret=YourClientSecret
+username=YourRedditUserName
+password=YourRedditPassword
+user_agent=Your Countdown Bot 0.1
