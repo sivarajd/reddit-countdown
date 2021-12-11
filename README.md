@@ -1,17 +1,17 @@
-#Reddit Countdown
+# Reddit Countdown
 
 Text based countdown timer for a subreddit's sidebar to help Reddit
 communities to count down to important events.
 
 Based on the code from [matchu/reddit-countdown](https://github.com/matchu/reddit-countdown)
 
-##Pre-requisites
+## Pre-requisites
 
 * Python 3.8 or above 
 * [praw (Python Reddit API Wrapper)](https://praw.readthedocs.io/)
 
 
-##Quick Start
+## Quick Start
 
 1. Create an app on Reddit (https://www.reddit.com/prefs/apps/).
    You just need to enter `name` & `redirect uri`. Use http://127.0.0.1 as redirect uri.
@@ -37,7 +37,7 @@ Based on the code from [matchu/reddit-countdown](https://github.com/matchu/reddi
 10. Setup a job to run the script at regular intervals. 
  
 
-###Note 
+### Note 
 * It works with Markup text. Not tested with HTML content.
 * Might work in lower Python 3.x versions.
 
