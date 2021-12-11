@@ -18,11 +18,12 @@ Based on the code from [matchu/reddit-countdown](https://github.com/matchu/reddi
 2. You will get a client id & secret that you will use below.
 3. If you are using a separate Bot account (recommended), it should have `Manage Settings` access.
 4. In the cloned repository, copy countdown.ini.sample to countdown.ini.
-   - Give a name to reference your bot.
+   - Give a name to reference your bot (YourBotName).
    - Specify your subreddit.
    - Name of the sidebar where you want the countdown.
    - Specify a target time. It will be in UTC.
 5. Copy praw.ini.sample to praw.ini.
+   - Replace the section heading with YourBotName.
    - Enter the client id & secret you received when creating the app
    - Enter your Reddit username and password
    - Specify a meaningful user agent. Check [Reddit API Rules](https://github.com/reddit-archive/reddit/wiki/API) for rules.
